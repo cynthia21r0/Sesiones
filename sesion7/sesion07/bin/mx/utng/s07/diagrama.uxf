@@ -1,0 +1,34 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>420</x><y>200</y><w>180</w><h>80</h></coordinates><panel_attributes>App
+--
+
+bg=white
+fg=black
+--
+_+main(args:String... args):void_
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>240</y><w>240</w><h>40</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;220;20</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>110</y><w>280</w><h>170</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;260;150</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>110</y><w>170</w><h>170</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;150;150</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>10</x><y>0</y><w>400</w><h>370</h></coordinates><panel_attributes>mx.utng.s07
+--
+bg=gray
+fg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>60</y><w>150</w><h>80</h></coordinates><panel_attributes>Menu
+--
+
+bg=pink
+fg=black
+--
++muestraOpciones():void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>220</x><y>40</y><w>150</w><h>80</h></coordinates><panel_attributes>Lector
+bg=green
+fg=black
+--
+-scanner:Scanner
+--
++leerOpcion():byte</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>180</y><w>190</w><h>140</h></coordinates><panel_attributes>Lista tareas
+bg=orange
+fg=black
+--
+
+--
++crearNuevaLista():void
++verListaTareas():void
++verTareasDeLista():void
++actualizarListaDeTareas():void
++eliminarListaDeTareas():void</panel_attributes><additional_attributes></additional_attributes></element></diagram>

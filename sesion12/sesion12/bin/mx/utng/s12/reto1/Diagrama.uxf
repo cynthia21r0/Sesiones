@@ -1,0 +1,20 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLInterface</id><coordinates><x>230</x><y>30</y><w>120</w><h>90</h></coordinates><panel_attributes>Figura
+--
+calcularArea():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>130</y><w>130</w><h>50</h></coordinates><panel_attributes>PruebaFigura
+--
+--
+_+main(String[]):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>270</y><w>120</w><h>60</h></coordinates><panel_attributes>Cuadrado
+-
+lado:double
+-
++calcularArea():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>190</x><y>270</y><w>120</w><h>80</h></coordinates><panel_attributes>Rectangulo
+-
+-base:double
+-altura:double
+-
++calcularArea():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>270</y><w>120</w><h>80</h></coordinates><panel_attributes>Triangulo
+-
+-base:double
+-altura:double
+-
++calcularArea():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>40</y><w>200</w><h>250</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>180;10;10;230</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>50</y><w>70</w><h>240</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>50;10;10;220</additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>40</y><w>100</w><h>250</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;80;230</additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>40</y><w>190</w><h>130</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;170;110</additional_attributes></element><element><id>Relation</id><coordinates><x>140</x><y>140</y><w>340</w><h>150</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;130;320;10</additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>140</y><w>200</w><h>150</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;130;180;10</additional_attributes></element><element><id>Relation</id><coordinates><x>380</x><y>140</y><w>100</w><h>150</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;130;80;10</additional_attributes></element></diagram>
